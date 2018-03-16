@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Project-1</a>
+
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <a href="#!">First Sidebar Link</a>
+                </li>
+                <li>
+                    <a href="#!">Second Sidebar Link</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+                <i class="material-icons">menu</i>
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+
+
+        <div class="row">
+            <!--note that this image is a placeholder and will be removed when the actual Api data is done-->
+
+            <div class="col s12">
+                <!-- <img class="responsive-img" alt="UT Austin Map" src="assets/images/UT-Gmap.png"> -->
+
+                <div id="gmaps-app">
+                    <!-- {{ map }} -->
+                </div>
+
+                <!-- <div id="gmap"></div> -->
+
+                <span class="flow-text"></span>
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col s12">
+                <a class="waves-effect waves-light btn-large">
+                    <i class="material-icons left">cloud</i>Button</a>
+                <a class="waves-effect waves-light btn-large">
+                    <i class="material-icons left">cloud</i>button</a>
+                <a class="waves-effect waves-light btn-large">
+                    <i class="material-icons left">cloud</i>button</a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>
+
+    <!-- This needs to be before the Google Maps API call -->
+    <script src="assets/js/vue-maps-api-config.js"></script>
+
+    <!-- Google Maps API call -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2IahrwPpyvfygnrvqEa_lP61ri9w3CxY&libraries=places&callback=gmapsCallback" type="text/javascript"></script>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- <script src="assets/js/maps-api-config.js"></script> -->
+
+
+        </div>
+    </div>
+   
+
+</body>
+
+</html>

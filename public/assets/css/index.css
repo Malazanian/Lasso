@@ -1,0 +1,34 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+
+.container{
+
+width: 100%;
+
+height: auto;
+
+}
+
+
+.responsive-img{
+
+width: 100%;
+height: auto;
+
+
+}
+
+
+.btn-large{
+
+	width: 33.1%;
+}
+
+#gmaps-app{
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+}
