@@ -45,7 +45,7 @@ The profile tab includes:
 
 ## Authors
 
-[Ian Rutner](https://github.com/Malazanian)
-[Joseph Emswiler](https://github.com/josephemswiler)
-[Calle LaCouture](https://github.com/celacouture)
-[Becky Apo](https://github.com/goalsachiever17)
+- [Ian Rutner](https://github.com/Malazanian)
+- [Joseph Emswiler](https://github.com/josephemswiler)
+- [Calle LaCouture](https://github.com/celacouture)
+- [Becky Apo](https://github.com/goalsachiever17)
