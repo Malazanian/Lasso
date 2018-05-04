@@ -1,4 +1,4 @@
-# Metal Friend Finder
+# Lasso
 
 Lasso is a mobile round trip route planner for walking in cities and visiting multiple destinations before returning to initial starting point.
 
